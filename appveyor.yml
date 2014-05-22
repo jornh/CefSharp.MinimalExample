@@ -1,6 +1,14 @@
 environment:
   VisualStudioVersion: 11.0
 
+platform:
+  - x86
+
+
+configuration:
+  - Debug
+  - Release
+  
 matrix:
   allow_failures:
     - platform: x86
