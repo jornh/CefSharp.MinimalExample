@@ -7,7 +7,12 @@ platform:
 
 configuration:
   - Debug
-  - Release
+#  - Release
+
+# MSBuild verbosity level
+#  verbosity: quiet|minimal|normal|detailed
+
+verbosity: detailed
   
 matrix:
   allow_failures:
