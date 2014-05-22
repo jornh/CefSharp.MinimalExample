@@ -12,7 +12,8 @@ configuration:
 # MSBuild verbosity level
 #  verbosity: quiet|minimal|normal|detailed
 
-verbosity: detailed
+build:
+  verbosity: detailed
   
 matrix:
   allow_failures:
