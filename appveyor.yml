@@ -13,7 +13,7 @@ configuration:
 
 before_build:
   - cmd: nuget restore
-  - cmd: dir /s /b "C:\Program Files\AppVeyor\"
+  - cmd: dir /b "C:\Program Files"
 
 # MSBuild verbosity level
 #  verbosity: quiet|minimal|normal|detailed
