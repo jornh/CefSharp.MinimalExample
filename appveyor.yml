@@ -13,12 +13,14 @@ configuration:
 
 before_build:
   - cmd: nuget restore
+  - cmd: dir /s /b "C:\Program Files\AppVeyor\BuildAgent\"
 
 # MSBuild verbosity level
 #  verbosity: quiet|minimal|normal|detailed
 
-#build:
+build:
 #  verbosity: detailed
+  verbosity: minimal
   
 matrix:
   allow_failures:
