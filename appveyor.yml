@@ -13,9 +13,6 @@ configuration:
 
 before_build:
   - cmd: nuget restore
-  - cmd: dir /b "C:\"
-  - cmd: dir /b c:\progra~2
-  - cmd: echo %path%
 
 # MSBuild verbosity level
 #  verbosity: quiet|minimal|normal|detailed
