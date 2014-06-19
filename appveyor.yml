@@ -26,7 +26,7 @@ build:
   verbosity: minimal
 
 artifacts:
-  - path: CefSharp.MinimalExample.Wpf\bin
+  - path: *.exe
 
 matrix:
   allow_failures:
