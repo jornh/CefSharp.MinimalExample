@@ -15,6 +15,7 @@ configuration:
 before_build:
   - cmd: cd CefSharp.MinimalExample.Wpf
   - cmd: nuget install CefSharp.Wpf.%Platform% -Pre -o ..\packages
+  - cmd: cd ..
 #  - cmd: nuget restore
 
 # MSBuild verbosity level
