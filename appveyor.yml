@@ -24,7 +24,10 @@ before_build:
 build:
 #  verbosity: detailed
   verbosity: minimal
-  
+
+artifacts:
+  cefsharp-minimalexample\CefSharp.MinimalExample.Wpf\bin
+
 matrix:
   allow_failures:
     - platform: x86
